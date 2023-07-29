@@ -12,7 +12,7 @@
 $color-main: #fed136;
 $color-light: #fff;
 
-html {
+body {
   font-family: "Roboto", sans-serif;
 }
 
@@ -89,6 +89,57 @@ html {
 }
 
 .welcome button a {
-  color: $color-light;
   text-decoration: none;
+  color: $color-light;
+}
+
+.services {
+  margin: 96px 0;
+}
+
+.section-title {
+  padding-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.section-subtitle {
+  text-align: center;
+  margin-bottom: 80px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+section p {
+  color: grey;
+}
+
+.service {
+  text-align: center;
+}
+
+.icon {
+  position: relative;
+  margin: 0 auto 20px;
+  width: 80px;
+  height: 80px;
+  border: 3px solid $color-main;
+  border-radius: 50%;
+}
+
+.services i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  text-align: center;
+  color: $color-main;
+  padding: 10px;
+}
+
+section h4 {
+  font-size: 18px;
+  margin-bottom: 18px;
 }
