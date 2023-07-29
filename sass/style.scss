@@ -6,6 +6,16 @@
   box-sizing: border-box;
 }
 
+$color-main: #fed136;
+
 html {
   font-family: "Roboto", sans-serif;
+}
+
+.splash {
+  position: relative;
+  height: 100vh;
+  background-image: url("/images/header.jpg");
+  background-position: center;
+  background-size: cover;
 }

@@ -8,4 +8,12 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUubWluLmNzcyIsInN0eWxlLm1pbi5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFBcUIsU0FBQTtFQUFTLFVBQUE7RUFBVSxzQkFBQTtBQ0l4Qzs7QURKOEQ7RUFBSyxpQ0FBQTtBQ1FuRSIsImZpbGUiOiJzdHlsZS5taW4uY3NzIn0= */
+.splash {
+  position: relative;
+  height: 100vh;
+  background-image: url("/images/header.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUubWluLmNzcyIsInN0eWxlLm1pbi5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFBcUIsU0FBQTtFQUFTLFVBQUE7RUFBVSxzQkFBQTtBQ0l4Qzs7QURKOEQ7RUFBSyxpQ0FBQTtBQ1FuRTs7QURSb0c7RUFBUSxrQkFBQTtFQUFrQixhQUFBO0VBQWEsMkNBQUE7RUFBMkMsMkJBQUE7RUFBMkIsc0JBQUE7QUNnQmpOIiwiZmlsZSI6InN0eWxlLm1pbi5jc3MifQ== */

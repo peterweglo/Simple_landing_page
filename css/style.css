@@ -10,4 +10,12 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7O0VBR0UsU0FBQTtFQUNBLFVBQUE7RUFDQSxzQkFBQTtBQ0NGOztBREVBO0VBQ0UsaUNBQUE7QUNDRiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.splash {
+  position: relative;
+  height: 100vh;
+  background-image: url("/images/header.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7O0VBR0UsU0FBQTtFQUNBLFVBQUE7RUFDQSxzQkFBQTtBQ0NGOztBRElBO0VBQ0UsaUNBQUE7QUNERjs7QURJQTtFQUNFLGtCQUFBO0VBQ0EsYUFBQTtFQUNBLDJDQUFBO0VBQ0EsMkJBQUE7RUFDQSxzQkFBQTtBQ0RGIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
