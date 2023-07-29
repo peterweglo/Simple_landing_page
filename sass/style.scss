@@ -1,6 +1,3 @@
-// font-family: 'Roboto', sans-serif;
-// font-family: 'Roboto Serif', serif;
-// font-family: 'Rouge Script', cursive;
 *,
 *::before,
 *::after {
@@ -10,6 +7,7 @@
 }
 
 $color-main: #fed136;
+$color-main-darker: #f1c525;
 $color-light: #fff;
 
 body {
@@ -42,6 +40,11 @@ body {
   line-height: 60px;
   text-decoration: none;
   color: $color-light;
+  transition: 0.3s;
+}
+
+.splash nav li:hover a {
+  color: $color-main;
 }
 
 .logo {
@@ -86,11 +89,17 @@ body {
   font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 .welcome button a {
   text-decoration: none;
   color: $color-light;
+}
+
+.welcome button:hover {
+  background-color: $color-main-darker;
 }
 
 section {
@@ -126,6 +135,16 @@ section p {
   height: 80px;
   border: 3px solid $color-main;
   border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+  border-color: $color-main-darker;
+}
+.icon:hover i {
+  color: $color-main-darker;
 }
 
 .services i {
@@ -157,6 +176,12 @@ section p {
   width: 100%;
   height: 300px;
   object-fit: cover;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.portfolio img:hover {
+  filter: brightness(80%);
 }
 
 .portfolio h4 {
@@ -188,15 +213,16 @@ section p {
   width: 60px;
   line-height: 60px;
   margin: 0 10px;
-  color: #fff;
+  color: $color-light;
   border-radius: 50%;
-  background: $color-main;
+  background-color: $color-main;
   text-align: center;
   transition: 0.3s;
 }
 
 .media i:hover {
   transform: scale(1.2);
+  background-color: $color-main-darker;
 }
 
 footer .container {
