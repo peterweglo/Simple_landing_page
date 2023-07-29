@@ -17,3 +17,72 @@ html {
   background-position: center;
   background-size: cover;
 }
+
+.splash nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.splash nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.splash nav a {
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 60px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo {
+  color: #fed136;
+  font-family: "Rouge Script", cursive;
+  font-size: 50px;
+  line-height: 56px;
+  font-style: italic;
+}
+
+.welcome {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  padding: 0 80px;
+}
+
+.welcome h2 {
+  font-family: "Roboto Serif", serif;
+  font-size: 50px;
+  padding-bottom: 40px;
+}
+
+.welcome h1 {
+  font-size: 76px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+}
+
+.welcome button {
+  background-color: #fed136;
+  border: none;
+  padding: 20px 40px;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.welcome button a {
+  color: #fff;
+  text-decoration: none;
+}
