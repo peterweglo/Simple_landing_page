@@ -169,3 +169,43 @@ section p {
   text-align: center;
   padding-bottom: 20px;
 }
+
+.media {
+  margin: 30px;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.media li {
+  display: inline-block;
+  font-size: 0px;
+}
+
+.media i {
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  margin: 0 10px;
+  color: #fff;
+  border-radius: 50%;
+  background: $color-main;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.media i:hover {
+  transform: scale(1.2);
+}
+
+footer .container {
+  position: relative;
+}
+
+footer p {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
