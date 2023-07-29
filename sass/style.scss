@@ -170,19 +170,19 @@ section p {
   padding-bottom: 20px;
 }
 
-.medias {
+.media {
   margin: 30px;
   padding: 0;
   list-style-type: none;
   text-align: center;
 }
 
-.medias li {
+.media li {
   display: inline-block;
   font-size: 0px;
 }
 
-.medias i {
+.media i {
   font-size: 30px;
   height: 60px;
   width: 60px;
@@ -195,7 +195,7 @@ section p {
   transition: 0.3s;
 }
 
-.medias i:hover {
+.media i:hover {
   transform: scale(1.2);
 }
 
