@@ -80,7 +80,8 @@ body {
   padding-bottom: 40px;
 }
 
-.welcome button {
+.button {
+  width: 300px;
   background-color: $color-main;
   border: none;
   padding: 20px 40px;
@@ -94,12 +95,12 @@ body {
   transition: 0.3s;
 }
 
-.welcome button a {
+.button {
   text-decoration: none;
   color: $color-light;
 }
 
-.welcome button:hover {
+.button:hover {
   background-color: $color-main-darker;
 }
 
@@ -294,7 +295,7 @@ footer p {
   .welcome {
     padding: 0 20px;
   }
-  .welcome button {
+  .button {
     padding: 10px 20px;
     font-size: 20px;
     letter-spacing: normal;
@@ -330,7 +331,7 @@ footer p {
     font-size: 20px;
   }
 
-  .welcome button {
+  .button {
     font-size: 18px;
   }
 
