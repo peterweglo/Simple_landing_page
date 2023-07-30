@@ -233,7 +233,7 @@ footer .container {
 footer p {
   position: absolute;
   top: 50%;
-  left: 0;
+  left: 0px;
   transform: translateY(-50%);
 }
 
@@ -262,9 +262,12 @@ footer p {
 }
 
 @media (max-width: 767px) {
+  .splash nav {
+    padding: 10px;
+  }
   .splash nav a {
-    padding: 0 10px;
-    font-size: 18px;
+    padding: 0 8px;
+    font-size: 16px;
     line-height: 40px;
   }
 
@@ -275,21 +278,120 @@ footer p {
     padding-right: 20px;
   }
 
+  header .container {
+    max-width: 767px;
+  }
+
   .welcome h3 {
-    font-size: 30px;
+    font-size: 24px;
     padding-bottom: 20px;
   }
   .welcome h1 {
-    font-size: 48px;
+    font-size: 36px;
     letter-spacing: normal;
     padding-bottom: 20px;
   }
-
+  .welcome {
+    padding: 0 20px;
+  }
   .welcome button {
     padding: 10px 20px;
-    border-radius: 5px;
     font-size: 20px;
     letter-spacing: normal;
-    text-transform: uppercase;
+  }
+
+  section {
+    padding: 40px 0;
+  }
+
+  .section-subtitle {
+    margin-bottom: 36px;
+  }
+
+  .service p {
+    padding-bottom: 18px;
+  }
+
+  .portfolio .container > p {
+    padding-bottom: 0px;
+  }
+
+  .portfolio img {
+    height: 200px;
+  }
+}
+
+@media (max-width: 575px) {
+  .splash nav {
+    flex-direction: column;
+  }
+
+  .welcome h3 {
+    font-size: 20px;
+  }
+
+  .welcome button {
+    font-size: 18px;
+  }
+
+  .portfolio img {
+    height: 200px;
+  }
+
+  .media {
+    margin: 20px;
+  }
+
+  .media i {
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    margin: 0 6px;
+  }
+  footer p {
+    left: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .splash nav {
+    padding: 8px;
+  }
+  .splash nav a {
+    padding: 0 6px;
+    font-size: 14px;
+  }
+
+  .welcome h3 {
+    font-size: 18px;
+    padding-bottom: 16px;
+  }
+  .welcome h1 {
+    font-size: 24px;
+    padding-bottom: 16px;
+  }
+}
+
+@media (max-width: 414px) {
+  .media {
+    margin: 10px;
+  }
+
+  .media i {
+    font-size: 16px;
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    margin: 0 4px;
+  }
+  footer p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  footer p {
+    font-size: 10px;
   }
 }
