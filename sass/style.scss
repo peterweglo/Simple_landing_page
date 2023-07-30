@@ -31,6 +31,7 @@ body {
 .splash nav ul {
   display: flex;
   list-style-type: none;
+  flex-wrap: wrap;
 }
 
 .splash nav a {
@@ -234,4 +235,61 @@ footer p {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
+}
+
+@media (max-width: 991px) {
+  .splash nav a {
+    padding: 0 15px;
+    font-size: 20px;
+    line-height: 50px;
+  }
+
+  .logo {
+    font-size: 40px;
+    line-height: 50px;
+    font-style: italic;
+  }
+
+  .welcome h3 {
+    font-size: 40px;
+    padding-bottom: 30px;
+  }
+  .welcome h1 {
+    font-size: 56px;
+    letter-spacing: 4px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .splash nav a {
+    padding: 0 10px;
+    font-size: 18px;
+    line-height: 40px;
+  }
+
+  .logo {
+    font-size: 40px;
+    line-height: 1.2;
+    font-style: italic;
+    padding-right: 20px;
+  }
+
+  .welcome h3 {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  .welcome h1 {
+    font-size: 48px;
+    letter-spacing: normal;
+    padding-bottom: 20px;
+  }
+
+  .welcome button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    letter-spacing: normal;
+    text-transform: uppercase;
+  }
 }
